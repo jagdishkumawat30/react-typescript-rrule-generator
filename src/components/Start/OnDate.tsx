@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
+import { DateTimePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
 import DateFnsUtils from '@date-io/date-fns';
 import { DATE_TIME_FORMAT } from '../../constants/index';
 import translateLabel from '../../utils/translateLabel';
@@ -39,11 +39,11 @@ const StartOnDate = ({
         />
       ) : (
         <MuiPickersUtilsProvider utils={DateFnsUtils}>
-          <DatePicker
+          <DateTimePicker
             value={date}
             disableToolbar
             variant='inline'
-            format='yyyy-MM-dd'
+            format='yyyy-MM-dd HH:mm'
             id='date-picker-inline'
             inputProps={{
               id: `${id}-datetime`,
@@ -55,7 +55,7 @@ const StartOnDate = ({
             onChange={(inputDate: any) => {
               const editedEvent = {
                 target: {
-                  value: format(inputDate, 'yyyy-MM-dd'),
+                  value: format(inputDate, 'yyyy-MM-dd HH:mm'),
                   name: 'start.onDate.date'
                 }
               };
