@@ -1,4 +1,4 @@
-# react-rrule-generator-ts
+# react-typescript-rrule-generator
 
 > This is ReactJS project based on Create React Library and using Bootstrap styling. It's built with the help of a great rrule.js library.
 It also uses: 
@@ -11,7 +11,7 @@ It also uses:
 ## Install
 
 ```bash
-npm install --save react-rrule-generator-ts
+npm install --save react-typescript-rrule-generator
 ```
 
 ## Usage
@@ -19,8 +19,8 @@ npm install --save react-rrule-generator-ts
 ```tsx
 import React, { Component } from 'react'
 
-import RRuleGeneratorTS, { translations } from 'react-rrule-generator-ts'
-import 'react-rrule-generator-ts/dist/index.css'
+import RRuleGeneratorTS, { translations } from 'react-typescript-rrule-generator'
+import 'react-typescript-rrule-generator/dist/index.css'
 
 class Example extends Component {
   render() {
@@ -38,4 +38,4 @@ class Example extends Component {
 
 ## License
 
-MIT © [pollylnd](https://github.com/pollylnd)
+MIT © [jdbots](https://github.com/jagdishkumawat30)
