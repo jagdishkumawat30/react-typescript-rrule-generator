@@ -41,6 +41,7 @@ const StartOnDate = ({
         <MuiPickersUtilsProvider utils={DateFnsUtils}>
           <DateTimePicker
             value={date}
+            ampm={false}
             disableToolbar
             variant='inline'
             format='yyyy-MM-dd HH:mm'
