@@ -38,4 +38,4 @@ class Example extends Component {
 
 ## License
 
-MIT © [jdbots](https://github.com/jagdishkumawat30)
+MIT © [JD Bots](https://jd-bots.com)
