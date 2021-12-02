@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import TextareaAutosize from 'react-autosize-textarea';
 
-import ReactRRuleGenerator, { translations } from 'react-rrule-ts';
+import ReactRRuleGenerator, { translations } from 'react-typescript-rrule-generator';
 import './bootstrap.min.css';
-import 'react-rrule-ts/dist/index.css';
+import 'react-typescript-rrule-generator/dist/index.css';
 import './index.css';
 import format from 'date-fns/format'
 import subDays from 'date-fns/subDays';
@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <div>
         <div className="app-navbar">
-          <a href="https://github.com/fafruch/react-rrule-generator">
+          <a href="https://github.com/jagdishkumawat30/react-typescript-rrule-generator">
             &lt; go back to
             {' '}
             <img className="app-navbar-ghlogo" src="" alt="Github logo" />
@@ -53,7 +53,7 @@ class App extends Component {
 
           <iframe
             title="github-star"
-            src="https://ghbtns.com/github-btn.html?user=fafruch&repo=react-rrule-generator&type=star&count=true&size=medium"
+            src="https://ghbtns.com/github-btn.html?user=jagdishkumawat30&repo=react-typescript-rrule-generator&type=star&count=true&size=medium"
             frameBorder="0"
             scrolling="0"
             width="78px"
@@ -61,7 +61,7 @@ class App extends Component {
           />
         </div>
         <div className="app-header">
-          <h1>React RRule Generator</h1>
+          <h1>React Typescript RRule Generator</h1>
         </div>
 
         <div className="app-desc">

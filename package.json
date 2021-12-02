@@ -1,10 +1,13 @@
 {
-  "name": "react-rrule-generator-ts",
-  "version": "0.3.3",
+  "name": "react-typescript-rrule-generator",
+  "version": "0.0.1",
   "description": "This is ReactJS project based on Create React Library and using Bootstrap styling. It's built with the help of a great rrule.js library.\n It also uses: \n -lodash \n -date-fns \n- @material-ui/pickers",
-  "author": "pollylnd",
+  "author": "jdbots",
   "license": "MIT",
-  "repository": "pollylnd/react-rrule-generator-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagdishkumawat30/react-typescript-rrule-generator.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -74,5 +77,12 @@
     "@material-ui/pickers": "^3.2.10",
     "date-fns": "^2.16.1",
     "rrule": "^2.6.6"
+  },
+  "bugs": {
+    "url": "https://github.com/jagdishkumawat30/react-typescript-rrule-generator/issues"
+  },
+  "homepage": "https://github.com/jagdishkumawat30/react-typescript-rrule-generator#readme",
+  "directories": {
+    "example": "example"
   }
 }

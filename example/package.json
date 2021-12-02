@@ -1,5 +1,5 @@
 {
-  "name": "react-rrule-ts-example",
+  "name": "react-typescript-rrule-example",
   "homepage": ".",
   "version": "0.0.0",
   "private": true,
@@ -21,8 +21,8 @@
     "react": "file:../node_modules/react",
     "react-datetime": "^3.0.4",
     "react-dom": "file:../node_modules/react-dom",
-    "react-rrule-ts": "file:..",
     "react-scripts": "file:../node_modules/react-scripts",
+    "react-typescript-rrule-generator": "file:..",
     "rrule": "^2.6.6",
     "typescript": "file:../node_modules/typescript"
   },

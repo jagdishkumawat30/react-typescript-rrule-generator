@@ -1,6 +1,6 @@
 {
-  "short_name": "react-rrule-ts",
-  "name": "react-rrule-ts",
+  "short_name": "react-typescript-rrule-generator",
+  "name": "react-typescript-rrule-generator",
   "icons": [
     {
       "src": "favicon.ico",
