@@ -53,7 +53,7 @@ const EndOnDate = ({
             value={date}
             disableToolbar
             variant='inline'
-            format='yyyy-MM-dd'
+            format='yyyy-MM-dd HH:mm'
             id='date-picker-inline'
             inputProps={{
               id: `${id}-datetime`,
@@ -65,7 +65,7 @@ const EndOnDate = ({
             onChange={(inputDate: any) => {
               const editedEvent = {
                 target: {
-                  value: format(inputDate, 'yyyy-MM-dd'),
+                  value: format(inputDate, 'yyyy-MM-dd HH:mm'),
                   name: 'end.onDate.date'
                 }
               };

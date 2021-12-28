@@ -40,6 +40,7 @@ const StartOnDate = ({
       ) : (
         <MuiPickersUtilsProvider utils={DateFnsUtils}>
           <DateTimePicker
+            autoOk
             value={date}
             ampm={false}
             disableToolbar
